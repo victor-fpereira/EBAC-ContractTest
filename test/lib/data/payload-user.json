@@ -1,0 +1,9 @@
+{
+    "operationName": "user",
+    "variables": {
+        "where": {
+            "id": "cloby5qol0000u65ss2vy6qnj"
+        }
+    },
+    "query": "query user($where: UserWhereUniqueInput!) {\n  data: user(where: $where) {\n    createdAt\n    firstName\n    id\n    lastName\n    roles\n    updatedAt\n    username\n    __typename\n  }\n}\n"
+}

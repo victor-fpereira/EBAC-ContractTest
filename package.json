@@ -1,0 +1,26 @@
+{
+  "name": "ebac-api-test2",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test:healthCheck": "jest --testNamePattern='HealthCheck'",
+    "test:contractConsumer": "jest --testNamePattern='ContractConsumer'"
+  },
+  "author": "",
+  "dependencies": {
+    "@pact-foundation/pact": "^9.17.0",
+    "@pact-foundation/pact-node": "^10.17.7",
+    "@sucrase/jest-plugin": "^2.2.0",
+    "@types/jest": "^27.0.3",
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "jest": "^27.3.1",
+    "start-server-and-test": "^1.14.0",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "start-server-and-test": "^2.0.1"
+  }
+}
